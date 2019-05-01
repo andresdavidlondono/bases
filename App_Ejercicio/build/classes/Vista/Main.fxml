@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="469.0" prefWidth="665.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Button fx:id="Binsertar" layoutX="197.0" layoutY="375.0" mnemonicParsing="false" onAction="#Ir_a_Insertar" text="Insertar Datos" />
+      <Button fx:id="BConsultar" layoutX="397.0" layoutY="375.0" mnemonicParsing="false" onAction="#Ir_a_Consultar" text="Consultar Datos" />
+      <Label fx:id="App_Ejercicio" layoutX="297.0" layoutY="49.0" text="App_Ejercicio" />
+      <ImageView fx:id="imagen" fitHeight="628.0" fitWidth="1080.0" layoutY="92.0" pickOnBounds="true">
+          <image>
+              <Image url = "C:\Users\Jhonny Londoño G\Documents\NetBeansProjects\App_Ejercicio\src\fondo" />
+          </image>
+      </ImageView>
+   </children>
+</AnchorPane>
